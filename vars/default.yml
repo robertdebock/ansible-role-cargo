@@ -1,1 +1,3 @@
 ---
+cargo_requirements:
+  - curl

@@ -11,11 +11,18 @@
     - "{{ ansible_distribution }}.yml"
     - default.yml
 
+- name: install requirements
+  package:
+    name: "{{ item }}"
+  with_items:
+    - "{{ cargo_requirements }}"
+
 - name: download installer
   get_url:
     url: https://static.rust-lang.org/rustup.sh
     dest: /tmp/rustup.sh
     mode: 0750
+    validate_certs: no
 
 - name: run installer
   command: ./rustup.sh
