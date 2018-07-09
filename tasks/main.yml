@@ -1,0 +1,24 @@
+---
+# tasks file for sudo-pair
+- name: load default variables
+  include_vars:
+    file: default.yml
+
+- name: load os-specific variables
+  include_vars: "{{ item }}"
+  with_first_found:
+    - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
+    - "{{ ansible_distribution }}.yml"
+    - default.yml
+
+- name: download installer
+  get_url:
+    url: https://static.rust-lang.org/rustup.sh
+    dest: /tmp/rustup.sh
+    mode: 0750
+
+- name: run installer
+  command: ./rustup.sh
+  args:
+    chdir: /tmp
+    creates: /usr/local/bin/cargo
