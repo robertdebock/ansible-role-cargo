@@ -8,37 +8,37 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: sudo-pair-archlinux
+  - name: cargo-archlinux
     image: base/archlinux
-  - name: sudo-pair-alpine-3.6
+  - name: cargo-alpine-3.6
     image: alpine:3.6
-  - name: sudo-pair-alpine-3.7
+  - name: cargo-alpine-3.7
     image: alpine:3.7
-  - name: sudo-pair-centos-6
+  - name: cargo-centos-6
     image: centos:6
-  - name: sudo-pair-centos-7
+  - name: cargo-centos-7
     image: centos:7
-  - name: sudo-pair-debian-buster
+  - name: cargo-debian-buster
     image: debian:buster
-  - name: sudo-pair-debian-jessie
+  - name: cargo-debian-jessie
     image: debian:jessie
-  - name: sudo-pair-debian-sid
+  - name: cargo-debian-sid
     image: debian:sid
-  - name: sudo-pair-debian-stretch
+  - name: cargo-debian-stretch
     image: debian:stretch
-  - name: sudo-pair-debian-wheezy
+  - name: cargo-debian-wheezy
     image: debian:wheezy
-  - name: sudo-pair-fedora-27
+  - name: cargo-fedora-27
     image: fedora:27
-  - name: sudo-pair-fedora-28
+  - name: cargo-fedora-28
     image: fedora:28
-  - name: sudo-pair-opensuse-42.2
+  - name: cargo-opensuse-42.2
     image: opensuse:42.2
-  - name: sudo-pair-opensuse-42.3
+  - name: cargo-opensuse-42.3
     image: opensuse:42.3
-  - name: sudo-pair-ubuntu-artful
+  - name: cargo-ubuntu-artful
     image: ubuntu:artful
-  - name: sudo-pair-ubuntu-bionic
+  - name: cargo-ubuntu-bionic
     image: ubuntu:bionic
 provisioner:
   name: ansible

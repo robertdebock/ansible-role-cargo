@@ -8,7 +8,7 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: sudo-pair-archlinux
+  - name: cargo-archlinux
     image: base/archlinux
 provisioner:
   name: ansible

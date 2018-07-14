@@ -10,13 +10,13 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: sudo-pair-centos-7
+  - name: cargo-centos-7
     box: centos/7
-  - name: sudo-pair-debian-jessie64
+  - name: cargo-debian-jessie64
     box: debian/jessie64
-  - name: sudo-pair-fedora-28-cloud-base
+  - name: cargo-fedora-28-cloud-base
     box: fedora/28-cloud-base
-  - name: sudo-pair-opensuse-openSUSE-42-2-x86-64
+  - name: cargo-opensuse-openSUSE-42-2-x86-64
     box: opensuse/openSUSE-42.2-x86_64
 provisioner:
   name: ansible

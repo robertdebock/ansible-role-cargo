@@ -8,7 +8,7 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: sudo-pair-debian-stable
+  - name: cargo-debian-stable
     image: debian:stable
 provisioner:
   name: ansible
