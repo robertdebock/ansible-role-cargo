@@ -30,8 +30,6 @@ platforms:
     image: fedora:latest
   - name: cargo-fedora-rawhide
     image: fedora:rawhide
-  - name: cargo-gentoo
-    image: gentoo/stage3-amd64
   - name: cargo-opensuse-leap
     image: opensuse:leap
   - name: cargo-opensuse-tumbleweed
