@@ -1,4 +1,5 @@
 ---
 # defaults file for cargo
+
 # To update all packages installed by this roles, set `cargo_package_state` to `latest`.
 cargo_package_state: present
