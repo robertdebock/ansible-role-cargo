@@ -3,8 +3,7 @@ cargo
 
 [![Build Status](https://travis-ci.org/robertdebock/ansible-role-cargo.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-cargo)
 
-Provides cargo for your system.
-
+The purpose of this role is to install cargo on your system.
 
 Example Playbook
 ----------------
