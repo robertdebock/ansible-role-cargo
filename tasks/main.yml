@@ -4,6 +4,9 @@
   package:
     name: "{{ cargo_requirements }}"
     state: "{{ cargo_package_state }}"
+  register: cargo_install_requirements_for_cargo
+  until: cargo_install_requirements_for_cargo is succeeded
+  retries: 3
 
 - name: download installer rustup
   get_url:
@@ -11,6 +14,9 @@
     dest: /tmp/rustup.sh
     mode: 0750
     validate_certs: no
+  register: cargo_download_installer_rustup
+  until: cargo_download_installer_rustup is succeeded
+  retries: 3
 
 - name: run installer rustup
   command: ./rustup.sh
