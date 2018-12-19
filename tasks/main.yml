@@ -12,14 +12,14 @@
   get_url:
     url: https://static.rust-lang.org/rustup.sh
     dest: /tmp/rustup.sh
-    mode: 0750
+    mode: "0750"
     validate_certs: no
   register: cargo_download_installer_rustup
   until: cargo_download_installer_rustup is succeeded
   retries: 3
 
 - name: run installer rustup
-  command: ./rustup.sh -y
+  command: ./rustup.sh --prefix={{ cargo_prefix }} --yes
   args:
     chdir: /tmp
-    creates: /usr/local/bin/cargo
+    creates: "{{ cargo_prefix }}/bin/cargo"
