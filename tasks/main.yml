@@ -19,7 +19,9 @@
   retries: 3
 
 - name: run installer rustup
-  command: ./rustup.sh --prefix={{ cargo_prefix }} --yes
+  command: ./rustup.sh -y
   args:
     chdir: /tmp
     creates: "{{ cargo_prefix }}/bin/cargo"
+  environment:
+    CARGO_HOME: "{{ cargo_prefix }}"
