@@ -19,7 +19,7 @@
   retries: 3
 
 - name: run installer rustup
-  command: ./rustup.sh
+  command: ./rustup.sh -y
   args:
     chdir: /tmp
     creates: /usr/local/bin/cargo
