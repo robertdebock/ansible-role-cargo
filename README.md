@@ -31,6 +31,9 @@ These variables are set in `defaults/main.yml`:
 ---
 # defaults file for cargo
 
+# The destination where cargo should be installed.
+cargo_prefix: /usr/local/bin
+
 # To update all packages installed by this roles, set `cargo_package_state` to `latest`.
 cargo_package_state: present
 
@@ -66,8 +69,8 @@ This role has been tested against the following distributions and Ansible versio
 
 |distribution|ansible 2.6|ansible 2.7|ansible devel|
 |------------|-----------|-----------|-------------|
-|alpine-edge*|yes|yes|yes*|
-|alpine-latest|yes|yes|yes*|
+|alpine-edge*|no|no|no*|
+|alpine-latest|no|no|no*|
 |archlinux|yes|yes|yes*|
 |centos-6|no|no|no*|
 |centos-latest|yes|yes|yes*|
