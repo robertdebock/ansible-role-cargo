@@ -2,7 +2,7 @@
 galaxy_info:
   author: Robert de Bock
   role_name: cargo
-  description: The purpose of this role is to install cargo on your system.
+  description: Install cargo on your system.
   license: Apache-2.0
   company: none
   min_ansible_version: 2.6
