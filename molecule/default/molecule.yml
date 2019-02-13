@@ -34,8 +34,10 @@ platforms:
     image: opensuse:leap
   - name: cargo-opensuse-tumbleweed
     image: opensuse:tumbleweed
-  - name: cargo-ubuntu-artful
-    image: ubuntu:artful
+  - name: cargo-ubuntu-latest
+    image: ubuntu:latest
+  - name: cargo-ubuntu-rolling
+    image: ubuntu:rolling
   - name: cargo-ubuntu-devel
     image: ubuntu:devel
   - name: cargo-ubuntu-latest
