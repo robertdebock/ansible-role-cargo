@@ -32,8 +32,6 @@ platforms:
     image: fedora:rawhide
   - name: cargo-opensuse-leap
     image: opensuse:leap
-  - name: cargo-opensuse-tumbleweed
-    image: opensuse:tumbleweed
   - name: cargo-ubuntu-latest
     image: ubuntu:latest
   - name: cargo-ubuntu-rolling
