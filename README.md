@@ -34,9 +34,6 @@ These variables are set in `defaults/main.yml`:
 
 # The destination where cargo should be installed.
 cargo_prefix: /usr/local
-
-# To update all packages installed by this roles, set `cargo_package_state` to `latest`.
-cargo_package_state: present
 ```
 
 Requirements

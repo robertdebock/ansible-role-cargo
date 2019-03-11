@@ -3,7 +3,7 @@
 - name: install requirements for cargo
   package:
     name: "{{ cargo_requirements }}"
-    state: "{{ cargo_package_state }}"
+    state: present
   register: cargo_install_requirements_for_cargo
   until: cargo_install_requirements_for_cargo is succeeded
   retries: 3
