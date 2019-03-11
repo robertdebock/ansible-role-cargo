@@ -20,7 +20,6 @@ This example is taken from `molecule/default/playbook.yml`:
     - robertdebock.bootstrap
     - robertdebock.buildtools
     - robertdebock.cargo
-
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
@@ -38,7 +37,6 @@ cargo_prefix: /usr/local
 
 # To update all packages installed by this roles, set `cargo_package_state` to `latest`.
 cargo_package_state: present
-
 ```
 
 Requirements
