@@ -1,10 +1,9 @@
 ---
-- name: Converge
+- name: Prepare
   hosts: all
-  gather_facts: no
   become: yes
+  gather_facts: no
 
   roles:
     - robertdebock.bootstrap
     - robertdebock.buildtools
-    - ansible-role-cargo
