@@ -25,3 +25,6 @@
     creates: "{{ cargo_prefix }}/bin/cargo"
   environment:
     CARGO_HOME: "{{ cargo_prefix }}"
+  register: cargo_run_installer_rustup
+  until: cargo_run_installer_rustup is succeeded
+  retries: 3
