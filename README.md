@@ -80,8 +80,8 @@ This role has been tested against the following distributions and Ansible versio
 
 |distribution|ansible 2.7|ansible 2.8|ansible devel|
 |------------|-----------|-----------|-------------|
-|alpine-edge*|no|no|no*|
-|alpine-latest|no|no|no*|
+|alpine-edge*|yes|yes|yes*|
+|alpine-latest|yes|yes|yes*|
 |archlinux|yes|yes|yes*|
 |centos-6|no|no|no*|
 |centos-latest|yes|yes|yes*|
@@ -95,6 +95,17 @@ This role has been tested against the following distributions and Ansible versio
 |ubuntu-rolling|yes|yes|yes*|
 
 A single star means the build may fail, it's marked as an experimental build.
+
+Exceptions
+----------
+
+Some variarations of the build matrix do not work. These are the variations and reasons why the build won't work:
+
+| variation                 | reason                 |
+|---------------------------|------------------------|
+| CentOS 6 | sslv3 alert handshake failure |
+
+
 
 Testing
 -------
