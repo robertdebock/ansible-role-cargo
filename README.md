@@ -6,6 +6,9 @@ cargo
 
 Install cargo on your system.
 
+<img src="https://img.shields.io/ansible/role/d/27357"/>
+<img src="https://img.shields.io/ansible/quality/27357"/>
+
 Example Playbook
 ----------------
 
@@ -91,7 +94,7 @@ This role has been tested against the following distributions and Ansible versio
 |alpine-edge*|yes|yes|yes*|
 |alpine-latest|yes|yes|yes*|
 |archlinux|yes|yes|yes*|
-|centos-6|no|no|no*|
+|centos-7|no|no|no*|
 |centos-latest|yes|yes|yes*|
 |debian-stable|yes|yes|yes*|
 |debian-unstable*|yes|yes|yes*|
@@ -112,6 +115,8 @@ Some variarations of the build matrix do not work. These are the variations and 
 | variation                 | reason                 |
 |---------------------------|------------------------|
 | CentOS 6 | sslv3 alert handshake failure |
+
+
 
 Testing
 -------
