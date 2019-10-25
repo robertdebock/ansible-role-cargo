@@ -24,9 +24,6 @@ galaxy_info:
     - name: Fedora
       versions:
         - all
-    - name: OpenSUSE
-      versions:
-        - all
     - name: Ubuntu
       versions:
         - artful
@@ -36,12 +33,5 @@ galaxy_info:
     - cargo
     - rust
     - packager
-    - alpine
-    - centos
-    - debian
-    - fedora
-    - opensuse
-    - rhel
-    - ubuntu
 
 dependencies: []
