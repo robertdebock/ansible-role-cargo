@@ -49,6 +49,9 @@ These variables are set in `defaults/main.yml`:
 
 # The destination where cargo should be installed.
 cargo_prefix: /usr/local
+
+# Where to drop the downloaded installer.
+cargo_tmp: /root
 ```
 
 Requirements
