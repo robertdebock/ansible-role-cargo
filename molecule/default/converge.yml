@@ -5,4 +5,4 @@
   gather_facts: yes
 
   roles:
-    - ansible-role-cargo
+    - role: ansible-role-cargo
