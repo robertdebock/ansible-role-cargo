@@ -2,9 +2,9 @@
 
 Install cargo on your system.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-cargo.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-cargo)|[![github](https://github.com/robertdebock/ansible-role-cargo/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-cargo/actions)|[![quality](https://img.shields.io/ansible/quality/27357)](https://galaxy.ansible.com/robertdebock/cargo)|[![downloads](https://img.shields.io/ansible/role/d/27357)](https://galaxy.ansible.com/robertdebock/cargo)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-cargo.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-cargo)|[![github](https://github.com/robertdebock/ansible-role-cargo/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-cargo/actions)|[![quality](https://img.shields.io/ansible/quality/27357)](https://galaxy.ansible.com/robertdebock/cargo)|[![downloads](https://img.shields.io/ansible/role/d/27357)](https://galaxy.ansible.com/robertdebock/cargo)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-cargo.svg)](https://github.com/robertdebock/ansible-role-cargo/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -72,8 +72,8 @@ The following roles can be installed to ensure all requirements are met, using `
 ```yaml
 ---
 - robertdebock.bootstrap
-- robertdebock.epel
 - robertdebock.buildtools
+- robertdebock.epel
 
 ```
 
