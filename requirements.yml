@@ -1,4 +1,4 @@
 ---
 - robertdebock.bootstrap
-- robertdebock.epel
 - robertdebock.buildtools
+- robertdebock.epel
