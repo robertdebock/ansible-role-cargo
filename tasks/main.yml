@@ -12,7 +12,7 @@
   get_url:
     url: https://static.rust-lang.org/rustup.sh
     dest: "{{ cargo_tmp }}/rustup.sh"
-    mode: "0750"
+    mode: "750"
     validate_certs: no
   register: cargo_download_installer_rustup
   until: cargo_download_installer_rustup is succeeded
