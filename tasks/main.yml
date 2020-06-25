@@ -1,5 +1,8 @@
 ---
 # tasks file for sudo-pair
+- name: include assert.yml
+  include_tasks: assert.yml
+
 - name: install requirements for cargo
   package:
     name: "{{ cargo_requirements }}"

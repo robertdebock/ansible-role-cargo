@@ -1,0 +1,12 @@
+---
+- name: test if cargo_prefix is set correctly
+  assert:
+    that:
+      - cargo_prefix is defined
+      - cargo_prefix | length > 0
+
+- name: test if cargo_tmp is set correctly
+  assert:
+    that:
+      - cargo_tmp is defined
+      - cargo_tmp | length > 0
