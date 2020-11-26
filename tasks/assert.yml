@@ -1,4 +1,5 @@
 ---
+
 - name: test if cargo_prefix is set correctly
   assert:
     that:
