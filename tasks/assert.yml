@@ -4,10 +4,12 @@
   assert:
     that:
       - cargo_prefix is defined
+      - cargo_prefix is string
     quiet: yes
 
 - name: test if cargo_tmp is set correctly
   assert:
     that:
       - cargo_tmp is defined
+      - cargo_tmp is string
     quiet: yes
