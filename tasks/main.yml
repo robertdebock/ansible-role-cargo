@@ -7,12 +7,12 @@
   delegate_to: localhost
 
 - name: install requirements for cargo
-  package:
+  ansible.builtin.package:
     name: "{{ cargo_requirements }}"
     state: present
 
 - name: download installer rustup
-  get_url:
+  ansible.builtin.get_url:
     url: https://static.rust-lang.org/rustup.sh
     dest: "{{ cargo_tmp }}/rustup.sh"
     mode: "750"
