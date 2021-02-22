@@ -19,7 +19,7 @@
     validate_certs: no
 
 - name: run installer rustup
-  command: ./rustup.sh -y
+  ansible.builtin.command: ./rustup.sh -y
   args:
     chdir: "{{ cargo_tmp }}"
     creates: "{{ cargo_prefix }}/bin/cargo"
