@@ -5,6 +5,7 @@
     that:
       - cargo_prefix is defined
       - cargo_prefix is string
+      - cargo_prefix is not none
     quiet: yes
 
 - name: assert | Test if cargo_tmp is set correctly
@@ -12,4 +13,5 @@
     that:
       - cargo_tmp is defined
       - cargo_tmp is string
+      - cargo_tmp is not none
     quiet: yes
