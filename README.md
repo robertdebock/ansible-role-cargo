@@ -2,9 +2,9 @@
 
 Install cargo on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-cargo/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-cargo/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-cargo/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-cargo)|[![quality](https://img.shields.io/ansible/quality/27357)](https://galaxy.ansible.com/robertdebock/cargo)|[![downloads](https://img.shields.io/ansible/role/d/27357)](https://galaxy.ansible.com/robertdebock/cargo)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-cargo.svg)](https://github.com/robertdebock/ansible-role-cargo/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-cargo/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-cargo/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-cargo/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-cargo)|[![downloads](https://img.shields.io/ansible/role/d/24455)](https://galaxy.ansible.com/robertdebock/cargo)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-cargo.svg)](https://github.com/robertdebock/ansible-role-cargo/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -93,7 +93,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-cargo/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-cargo/issues).
 
 ## [License](#license)
 
