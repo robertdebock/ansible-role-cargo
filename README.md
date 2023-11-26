@@ -1,4 +1,4 @@
-# Ansible role [cargo](#cargo)
+# [Ansible role cargo](#cargo)
 
 Install cargo on your system.
 
