@@ -10,7 +10,7 @@ _cargo_requirements:
     - curl-minimal
     - file
     - bash
-  Amazon-2023:
+  RedHat-2023:  # This is for amazonlinux:lastest
     - curl-minimal
     - file
     - bash
